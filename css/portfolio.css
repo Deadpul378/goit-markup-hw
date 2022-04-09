@@ -1,0 +1,180 @@
+.list{
+    list-style: none;
+}
+
+.link{
+ text-decoration: none;
+}
+
+.container{
+    width: 1600px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+.main-container{
+    width: 1170px;
+    height: 1360px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+.header{
+    background-color: #FFFFFF;
+}
+
+.tag-start{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    
+}
+
+.tag-end{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.webstudio{
+    margin-left: 215px;
+    
+}
+
+.header-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.header-link:hover{
+    color: #2196F3;
+}
+
+.header-list{
+    display: flex;
+    margin-left: 93px;    
+}
+
+.header-item{
+    padding-left: 50px;
+}
+
+.header-nav{
+    display: flex;
+}
+
+.header-hero{
+    display: flex;
+    margin-left: 331px;
+}
+
+.header-tel{
+    padding-left: 50px;
+}
+
+.section{
+    margin-top: 94px;
+}
+
+.section-main-list{
+    display: flex;
+    justify-content: center;
+}
+
+.section-list-item{
+    padding-left: 8px;
+}
+
+.work-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -70px;
+}
+
+.work-item + .work-item{
+    margin-left: 30px;
+
+}
+
+.work-item{
+   flex-basis: calc(100% / 3 - 30px);
+   margin-left: 30px;
+   margin-bottom: 30px;
+}
+
+.work-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin: 20px 24px 4px 24px;
+}
+
+.work-category{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin: 4px 24px 20px 24px;
+}
+
+.footer{
+    background: #2F303A;
+}
+
+.footer-position{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-webstudio{
+    padding: 60px 0 161px 215px;
+}
+
+.address{
+    margin-left: 175px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
