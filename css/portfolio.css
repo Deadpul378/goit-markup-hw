@@ -143,8 +143,14 @@ ul {
     margin-bottom: 30px;
 }
 
+.third{
+    margin-right: -30px;
+}
+
 .work-text{
-    border: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
     padding-top: 20px;
     padding-right: 24px;
     padding-bottom: 20px;
@@ -170,6 +176,42 @@ ul {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
+}
+
+.footer{
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-logo{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-position{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-item {
+    display: block;
+    margin-bottom: 9px;
+}
+
+.footer-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 
