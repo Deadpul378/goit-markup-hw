@@ -114,6 +114,9 @@ ul {
 }
 
 .btn-item{
+    
+    font-family: 'Roboto';
+    font-style: normal;
     background: #f5f4fa;
     color: #212121;
     font-weight: 500;
@@ -138,8 +141,38 @@ ul {
     flex-basis: calc(100% / 3 - 30px);
     margin-right: 30px;
     margin-bottom: 30px;
-    border: 1px solid #EEEEEE
 }
+
+.work-text{
+    border: 1px solid #EEEEEE;
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+}
+
+.work-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-bottom: 4px;
+}
+
+.work-category{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
 
 .logo-start{
     font-family: 'Raleway';
