@@ -60,13 +60,21 @@ ul {
     margin-right: 50px;
 }
 
+.header{
+    border-bottom: 1px solid 
+    #ECECEC;
+}
 
+.header-nav{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 
 .header-list{
     display: flex; 
-    padding-top: 32px;
+    padding-top: 8px;
     margin-left: 93px;
-    padding-bottom: 32px;
+    
 }
 
 .header-link{
@@ -90,12 +98,12 @@ ul {
 }
 
 .logo{
-    padding-top: 24px;
+    
 }
 
 .header-hero{
     display: flex;
-    padding-top: 32px;
+    padding-top: 8px;
     margin-left: 331px;
 }
 
