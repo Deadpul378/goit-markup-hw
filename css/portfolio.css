@@ -38,6 +38,8 @@ ul {
 
 .header{
     background-color: #FFFFFF;
+    border-bottom: 1px solid 
+    #ECECEC;
 }
 
 .header-nav{
@@ -98,14 +100,16 @@ ul {
     color: #2196F3;
 }
 
-.our-works{
+.section{
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
+
+
 .section-main-list{
     display: flex;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
