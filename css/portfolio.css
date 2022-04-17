@@ -93,7 +93,7 @@ ul {
 .header-hero{
     display: flex;
     padding-top: 8px;
-    margin-left: 331px;
+    margin-left: auto;
 }
 
 .header-contacts:not(:last-child){
@@ -104,6 +104,12 @@ ul {
    
 .header-link:hover{
     color: #2196F3;
+}
+
+.header-icon{
+    margin-right: 10px;
+    fill: currentColor;
+    vertical-align: middle;
 }
 
 .section{
@@ -194,6 +200,11 @@ ul {
     padding-bottom: 60px;
 }
 
+.footer-flex{
+    display: flex;
+    align-items: baseline;
+}
+
 .footer-logo{
     display: block;
     margin-bottom: 20px;
@@ -224,6 +235,43 @@ ul {
     color: rgba(255, 255, 255, 0.6);
 }
 
+.join{
+    margin-left: 70px;
+}
+  
+.join-title{
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px ;
+}
+  
+.join-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.join-item + .join-item{
+    margin-left: 10px;
+}
+  
+.join-link{
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    fill: #ffffff;
+}
+  
+.join-link:hover,
+.join-link:focus{
+    background-color: #2196f3;
+}
 
 
 .logo-start{
