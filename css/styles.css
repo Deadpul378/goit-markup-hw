@@ -191,6 +191,19 @@ ul {
     max-width: 270px;
 }
 
+.background-icon{
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+}
+
+.benefits-icon{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
 .work{
     padding-top: 94px;
     padding-bottom: 94px;
