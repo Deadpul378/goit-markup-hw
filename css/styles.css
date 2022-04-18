@@ -97,6 +97,10 @@ ul {
     color: #757575;
 }
 
+.header-second-link:hover , .header-second-link:focus{
+    color: #2196F3;
+}
+
 .logo{
     
 }
@@ -113,9 +117,11 @@ ul {
    
 
    
-.header-link:hover{
+.header-link:hover , .header-link:focus {
     color: #2196F3;
 }
+
+
 
 .header-icon{
     margin-right: 10px;
@@ -199,6 +205,7 @@ ul {
 
 .background-icon{
     background-color: #F5F4FA;
+    border-radius: 4px;
     margin-bottom: 30px;
     width: 270px;
     height: 120px;
@@ -322,11 +329,11 @@ ul {
     justify-content: center;
 }
 
-.team-soc-link:hover{
+.team-soc-link:hover , .team-soc-link:focus{
     background-color: #2196F3;
 }
 
-.team-soc-link:hover .clients-icon{
+.team-soc-link:hover , .team-soc-link:focus .clients-icon{
     fill: #FFFFFF;
 }
 
@@ -375,7 +382,7 @@ ul {
     border-color: #2196F3;
 }
 
-.clients-link:hover .clients-icon{
+.clients-link:hover , .clients-link:focus .clients-icon{
     fill: #2196F3;
 }
 

@@ -23,9 +23,12 @@ ul {
     border-color: #F5F4FA;
 }
 
-.btn:hover{
+.btn:hover , .btn:focus{
     background-color: #2196F3;
+    color: #FFFFFF;
 }
+
+
 
 .container{
     width: 1200px;
@@ -86,6 +89,10 @@ ul {
     color: #757575;
 }
 
+.header-second-link:hover , .header-second-link:focus{
+    color: #2196F3;
+}
+
 .logo{
     
 }
@@ -102,7 +109,7 @@ ul {
    
 
    
-.header-link:hover{
+.header-link:hover , .header-link:focus {
     color: #2196F3;
 }
 
@@ -157,6 +164,11 @@ ul {
     flex-basis: calc(100% / 3 - 30px);
     margin-right: 30px;
     margin-bottom: 30px;
+    
+}
+
+.work-item:hover , .work-item:focus{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .third{
