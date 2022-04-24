@@ -18,7 +18,7 @@
                 <nav class="header-nav">
                     <a href="" class="link logo"><span class="logo-start">Web</span><span class="logo-end">Studio</span></a>
                     <ul class="header-list list">
-                        <li class="header-item"><a href="" class="header-link link">Студия</a></li>
+                        <li class="header-item"><a href="" class="header-link link active">Студия</a></li>
                         <li class="header-item"><a href="./portfolio.html" class="header-link link">Портфолио</a></li>
                         <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
                     </ul> 
@@ -39,7 +39,7 @@
             <section class="begin">
                 <div class="container">
                     <h1 class="begin-title">Эффективные решения для вашего бизнеса</h1>
-                    <button type="button" class=" btn">Заказать услугу</button>
+                    <button type="button" class=" btn" data-modal-open>Заказать услугу</button>
                 </div>
             </section>
             <section class="benefits">
@@ -88,9 +88,18 @@
                 <div class="container">
                     <h2 class="work-title">Чем мы занимаемся</h2>
                     <ul class="work-list list">
-                        <li class="work-item"><img src="./images/box1.jpg" alt="Планшет с клавиатурой" width="370" height="294"></li>
-                        <li class="work-item"><img src="./images/box3.jpg" alt="Телефон и ноутбук" width="370" height="294"></li>
-                        <li class="work-item"> <img src="./images/box2.jpg" alt="Планшет с стилусом" width="370" height="294"></li>
+                        <li class="work-item">
+                            <img src="./images/box1.jpg" alt="Планшет с клавиатурой" width="370" height="294">
+                            <div class="text-wrap"><p class="work-item-text">Десктопные приложения</p></div>
+                        </li>
+                        <li class="work-item">
+                            <img src="./images/box3.jpg" alt="Телефон и ноутбук" width="370" height="294">
+                            <div class="text-wrap"><p class="work-item-text">Мобильные приложения</p></div>
+                        </li>
+                        <li class="work-item">
+                            <img src="./images/box2.jpg" alt="Планшет с стилусом" width="370" height="294">
+                            <div class="text-wrap"><p class="work-item-text">Дизайнерские решения</p></div>
+                        </li>
                     </ul>
                 </div>
             </section>    
@@ -348,6 +357,14 @@
                     
             </div>  
         </footer>
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <svg class="modal-icon-close" width="30" height="30" data-modal-close>
+                    <use href="./images/icons/symbol-defs.svg#icon-close"></use>
+                </svg>
+            </div>
+        </div>
+        <script src="./js/modal.js"></script>
 </body>
 </html>    
                    
