@@ -36,7 +36,7 @@ ul {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid tomato;
+    /* outline: 2px solid tomato; */
 }
 
 .header{
@@ -46,6 +46,16 @@ ul {
 .header-nav{
     display: flex;
     flex-direction: row;
+}
+
+.active::after{
+    content: '';
+    display: block;
+    position: relative;
+    bottom: -26px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #2196f3;
 }
 
 .header-item:not(:last-child){
