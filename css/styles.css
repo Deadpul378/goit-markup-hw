@@ -100,6 +100,8 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .header-second-link{
@@ -110,10 +112,13 @@ ul {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .header-second-link:hover , .header-second-link:focus{
     color: #2196F3;
+
 }
 
 .logo{
@@ -336,6 +341,7 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 10px;
 }
 
 .team-position{
@@ -372,6 +378,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .team-soc-link:hover , .team-soc-link:focus{
@@ -427,6 +435,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .clients-link:hover , .clients-link:focus{
@@ -511,6 +521,8 @@ ul {
     justify-content: center;
     align-items: center;
     fill: #ffffff;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
   
 .join-link:hover,
