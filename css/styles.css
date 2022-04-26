@@ -386,9 +386,14 @@ ul {
     background-color: #2196F3;
 }
 
-.team-soc-link:hover , .team-soc-link:focus .clients-icon{
+.team-soc-link:focus .clients-icon{
     fill: #FFFFFF;
 }
+
+.team-soc-link:hover .clients-icon{
+    fill: #FFFFFF;
+}
+
 
 /* Clients */
 
@@ -398,7 +403,7 @@ ul {
 }
 
 .clients-icon{
-    fill: #AFB1B8;
+    fill: #ffffff;
 }
 
 .clients-title{
