@@ -540,6 +540,57 @@ ul {
     background-color: #2196f3;
 }
 
+.subscribe{
+    margin-left: 93px;
+}
+
+.subscribe-title{
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.subscribe-input{
+    padding-left: 16px;
+    width: 358px;
+    height: 50px;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-input::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe-btn{
+    margin-left: 12px;
+    padding-left: 29px;
+    padding-right: 28px;
+    border-color: transparent;
+    border-radius: 4px;
+    fill: currentColor;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-send{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
 .logo-start{
     font-family: 'Raleway';
     font-style: normal;
@@ -593,6 +644,7 @@ ul {
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    padding: 40px;
 }
   
 .modal-icon-close{
@@ -606,10 +658,154 @@ ul {
     cursor: pointer;
 }
 
+.form-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 12px;
+}
+
+.form-input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    padding-left: 32px;
+}
+
+.form-input:focus{
+    border-color: #2196f3;
+}
+  
+.form-input:focus + .input-icon{
+    fill: #2196f3 ;
+}
+
+.form-label, .form-text{
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #757575;
+    margin-bottom: 4px;
+}
+
+.input-wrap{
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.input-icon{
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    left: 12px;
+}
+
+.user-text{
+    width: 100%;
+    min-height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    padding: 12px 16px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    resize: none;
+}
+
+.user-text::placeholder{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+}
+
+.check-text{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.check-text, .check-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.check-text .check-wrap {
+    content: '';;
+    width: 16px;
+    height: 15px;
+    margin-right: 8px;
+    border: 2px solid #212121;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-check{
+    fill: transparent;
+}
+
+.check-link{
+    color: #2196f3;
+}
+
+.form-check:checked + .check-text .check-wrap {
+    background-color: #2196F3;
+    border: none;
+}
+
+.form-check:checked +.check-text .icon-check{
+    fill: #EEEEEE;
+}
+
+.modal-btn{
+    display: block;
+    margin: 0 auto;
+    border:transparent;
+}
+
 .is-hidden{
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
   
