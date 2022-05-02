@@ -653,9 +653,18 @@ ul {
     right: 8px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
     width: 30px;
     height: 30px;
-    cursor: pointer;
+    padding: 5px;
+    background-color: transparent;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.modal-icon-close:hover{
+    fill: #2196f3;
 }
 
 .form-title{
