@@ -9,7 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
         <title>Document</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./css/portfolio.css">
+        
+        <link rel="stylesheet" href="./css/main.min.css"/>
     </head>
 
     <body>
@@ -40,11 +41,11 @@
                 <div class="container our-works">
                     <nav class="section-nav">
                         <ul class="section-main-list list">
-                            <li class="section-list-item"><button type="button" class="btn-item btn"><span class="btn-text">Все</span> </button> 
-                            <li class="section-list-item"><button type="button" class="btn-item btn"><span class="btn-text">Веб-сайты</span> </button> 
-                            <li class="section-list-item"><button type="button" class="btn-item btn"><span class="btn-text">Приложения</span> </button> 
-                            <li class="section-list-item"><button type="button" class="btn-item btn"><span class="btn-text">Дизайн</span> </button> 
-                            <li class="section-list-item"><button type="button" class="btn-item btn"><span class="btn-text">Маркетинг</span> </button>
+                            <li class="section-list-item"><button type="button" class="btn-item "><span class="btn-text">Все</span> </button> 
+                            <li class="section-list-item"><button type="button" class="btn-item "><span class="btn-text">Веб-сайты</span> </button> 
+                            <li class="section-list-item"><button type="button" class="btn-item "><span class="btn-text">Приложения</span> </button> 
+                            <li class="section-list-item"><button type="button" class="btn-item "><span class="btn-text">Дизайн</span> </button> 
+                            <li class="section-list-item"><button type="button" class="btn-item "><span class="btn-text">Маркетинг</span> </button>
                         </ul>
                     </nav>  
                     <ul class="work-list list">
@@ -199,13 +200,16 @@
                 </div>
                 <form class="subscribe">
                     <p class="subscribe-title">Подпишитесь на рассылку</p>
-                    <input type="email" name="email" class="subscribe-input" placeholder="E-mail">
-                    <button type="submit" class="subscribe-btn btn">Подписаться<svg class="subscribe-send" width="24" height="24">
-                            <use href="./images/icons/symbol-defs.svg#icon-send"></use>
-                        </svg>
-                    </button>
-                </form>
+                    <div class="subscribe-cont">
+                        <input type="email" name="email" class="subscribe-input" placeholder="E-mail">
+                        <button type="submit" class="subscribe-btn ">Подписаться
+                            <svg class="subscribe-send" width="24" height="24">
+                                <use href="./images/icons/symbol-defs.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
                     
+                </form>
             </div>  
         </footer>
 

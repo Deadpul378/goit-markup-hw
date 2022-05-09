@@ -1,0 +1,131 @@
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+
+.section-main-list{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.section-list-item:not(:last-child){
+    margin-right: 8px;
+}
+
+.btn-item{
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    background: #f5f4fa;
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    padding-top: 6px;
+    padding-right: 22px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    border-radius: 4px;
+    border: #f5f4fa;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{
+        background-color: #2196f3;
+        color: #FFFFFF;
+    }
+    &:focus{
+        background-color: #2196f3;
+        color: #FFFFFF;
+    }
+}
+
+
+
+.work-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.work-item{
+    flex-basis: calc(100% / 3 - 30px);
+    margin-right: 30px;
+    margin-bottom: 30px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover{
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+    &:focus{
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+}
+
+
+
+.masters-cover-wrap{
+    position: relative;
+    overflow: hidden;
+}
+
+.work-cover-text{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(33, 150, 243, 0.9);
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    padding: 63px 24px 63px 24px;
+    transform: translateY(100%);
+    transition: transform 500ms;
+    .work-item:hover &{
+        transform: translate(0%);
+    }
+}
+
+
+
+.third{
+    margin-right: -30px;
+}
+
+.work-text{
+    border-left: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+}
+
+.work-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-bottom: 4px;
+}
+
+.work-category{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
