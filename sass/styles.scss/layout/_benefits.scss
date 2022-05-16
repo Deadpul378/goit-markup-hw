@@ -20,11 +20,11 @@
     margin-bottom: 10px;
     text-align: center;
     @media screen and (min-width:768px) {
-        min-width: 354px;
+        width: 354px;
         text-align: left;
     }
     @media screen and (min-width:1200px) {
-        max-width: 270px;
+        width: 270px;
     }
 }
 
@@ -55,11 +55,11 @@
     color: #757575;
     max-width: 450px;
    @media screen and (min-width:768px) {
-        max-width: 354px;
+        width: 354px;
     }
     
     @media screen and (min-width:768px) {
-        max-width: 270px;
+        width: 270px;
     }
 
 }
@@ -74,10 +74,10 @@
     align-items: center;
     justify-content: center;
     @media screen and (min-width:768px) {
-        max-width: 354px;
+        width: 354px;
     }
     @media screen and (min-width:1200px) {
-        max-width: 270px;
+        width: 270px;
     }
 
 }
