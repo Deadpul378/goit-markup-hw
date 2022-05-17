@@ -1,6 +1,10 @@
 .clients{
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    @media screen and (min-width:1200px) {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
 }
 
 .clients-icon{
@@ -27,18 +31,32 @@
 .clients-list{
     display: flex;
     margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: -30px;
+    margin-left: -30px;
+    @media screen and (min-width:1200px){
+        margin-bottom: 0;
+        flex-wrap: nowrap;
+    }
 }
 
 
-
-
-
-.clients-item:not(:last-child){
-    margin-right: 30px;
+.clients-item{
+    width: calc(100% / 2 - 30px);
+    margin-bottom: 30px;
+    margin-left: 30px;
+    @media screen and (min-width:768px){
+        width: calc(100% / 3 - 30px);
+    }
+    @media screen and (min-width:1200px){
+        width: 100%;
+    }
 }
+
 
 .clients-link{
-    width: 170px;
+    max-width: 210px;
     height: 92px;
     border: 1px solid #AFB1B8;
     display: flex;
@@ -51,6 +69,13 @@
     }
     &:focus{
         border-color: #2196F3;
+    }
+
+    @media screen and (min-width:768px){
+        width: 226px;
+    }
+    @media screen and (min-width:1200px){
+        width: 170px;
     }
 }
 
