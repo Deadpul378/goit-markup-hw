@@ -786,6 +786,11 @@ ul {
   margin-bottom: 20px;
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .join-title {
+    text-align: left;
+  }
+}
 
 .join-list {
   display: -webkit-box;
@@ -1038,12 +1043,17 @@ ul {
     margin-left: 88px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .header-list {
+    margin-left: 93px;
+  }
+}
 
 .active::after {
   content: "";
   display: block;
   position: relative;
-  bottom: -26px;
+  bottom: -32px;
   height: 4px;
   border-radius: 2px;
   background-color: #2196f3;
@@ -1082,6 +1092,12 @@ ul {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 1200px) {
+  .connect__link {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
 .connect__link:hover {
   color: #2196F3;
 }
@@ -1093,6 +1109,23 @@ ul {
   display: block;
   padding-top: 21px;
   margin-left: 84px;
+}
+@media screen and (min-width: 1200px) {
+  .connect {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-left: 305px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .connect__contacts:not(:last-child) {
+    margin-right: 50px;
+    margin-bottom: 0;
+  }
 }
 
 .connect__icon {
@@ -1119,6 +1152,7 @@ ul {
 }
 @media screen and (min-width: 1200px) {
   .logo {
+    margin-right: 0;
     font-weight: 700;
     font-size: 24px;
     line-height: 1.19;
@@ -1231,7 +1265,9 @@ ul {
 }
 
 .team-img {
-  max-width: 354px;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .team-margin {
