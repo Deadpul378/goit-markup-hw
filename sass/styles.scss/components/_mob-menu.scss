@@ -75,14 +75,25 @@
 }
 
 .mob-menu-contacts__link {
-    // transition: color $duration250ms $time-function;
-    // @include font(500, 20px, 28/20, 0.02em);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
     color: #757575;
 
     &:hover,
     &:focus {
         color: #2196F3;
-        // @include font(500, 22px, 40/22, 00.02em);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 34px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
     }
 }
 
