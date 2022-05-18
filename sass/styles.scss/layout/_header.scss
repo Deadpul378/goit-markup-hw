@@ -14,7 +14,6 @@
 }
 
 
-
 .nav{
     display: none;
     
@@ -28,8 +27,6 @@
 .header-list{
     @media screen and (min-width:768px) {
         display: flex;
-        padding-top: 32px;
-        padding-bottom: 32px;
         margin-left: 88px;
     }
     @media screen and (min-width:1200px) {
@@ -51,6 +48,8 @@
 
 
 .header-hero__link{
+    // padding-top: 32px;
+    // padding-bottom: 32px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -84,6 +83,8 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     @media screen and (min-width:1200px){
+        padding-top: 32px;
+        padding-bottom: 32px;
         font-size: 14px;
         line-height: 16px;
     }
@@ -105,9 +106,8 @@
     @media screen and (min-width:1200px) {
         width: 100%;
         display: flex;
-        padding-top: 32px;
-        padding-bottom: 32px;
         margin-left: 297px;
+        padding-top: 0;
     }
 }
 
@@ -117,8 +117,9 @@
     @media screen and (min-width:1200px){
         &:not(:last-child){
             margin-right: 50px;
-            margin-bottom: 0;
+            
         }
+        margin-bottom: 0;
     }
 }
 
