@@ -1139,6 +1139,8 @@ ul {
 }
 
 .header-hero__link {
+  padding-top: 32px;
+  padding-bottom: 32px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
