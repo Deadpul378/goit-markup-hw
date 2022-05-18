@@ -4,7 +4,7 @@
     #ECECEC;
 }
 
-.header__wrap{
+.header__wrap{  
     display: flex;
     align-items: center;
 }
@@ -21,6 +21,7 @@
     @media screen and (min-width:768px) {
         display: flex;
         flex-direction: row;
+        width: 100%;
     }
 }
 
@@ -67,7 +68,12 @@
     }
 }
 
+
+
 .connect__link{
+    justify-content: center;
+    align-items: center;
+    display: flex;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -95,17 +101,19 @@
 .connect{
     display: block;
     padding-top: 21px;
-    margin-left: 84px;
+    margin-left: auto;
     @media screen and (min-width:1200px) {
+        width: 100%;
         display: flex;
         padding-top: 32px;
         padding-bottom: 32px;
-        margin-left: 305px;
+        margin-left: 297px;
     }
 }
 
 
 .connect__contacts{
+    margin-bottom: 10px;
     @media screen and (min-width:1200px){
         &:not(:last-child){
             margin-right: 50px;
@@ -113,6 +121,7 @@
         }
     }
 }
+
 
 .connect__icon{
     margin-right: 8px;
