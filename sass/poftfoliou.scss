@@ -1,3 +1,13 @@
 @import "./portfolio.scss/layout/header";
 @import "./portfolio.scss/layout/section";
 @import "./portfolio.scss/layout/footer";
+
+
+@import "./styles.scss/base/common";
+@import "./styles.scss/base/reset";
+
+
+
+@import "./styles.scss/components/mob-menu";
+@import "./styles.scss/utils/hidden";
+@import "./styles.scss/utils/vars";
