@@ -102,9 +102,6 @@
     flex-wrap: wrap;
     margin-top: 64px;
 
-    @media screen and (orientation:landscape) {
-        justify-content: space-evenly;
-    }
 
     @media screen and (max-width:479px) {
         justify-content: space-around;
@@ -122,10 +119,16 @@
 }
 
 .mob-menu-soc__link {
-    // transition: color $duration250ms $time-function;
-    // @include font(500, 18px, 22/18, 0.02em);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    color: #2196F3;
 
-    color:#2196F3;
 
     &:hover,
     &:focus {
@@ -138,9 +141,6 @@
         margin-left: 10px;
     }
 
-    @media screen and (max-width:479px) {
-        // @include font(700, 2.3vw, 12/9, 0.02em);
-    }
 
     @media screen and (max-width:479px) {
         margin-left: 5px;

@@ -878,13 +878,6 @@ ul {
       flex-wrap: wrap;
   margin-top: 64px;
 }
-@media screen and (orientation: landscape) {
-  .mob-menu-soc__list {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-  }
-}
 @media screen and (max-width: 479px) {
   .mob-menu-soc__list {
     -ms-flex-pack: distribute;
@@ -902,6 +895,16 @@ ul {
 }
 
 .mob-menu-soc__link {
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
   color: #2196F3;
 }
 .mob-menu-soc__link:hover, .mob-menu-soc__link:focus {
