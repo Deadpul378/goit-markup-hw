@@ -428,6 +428,9 @@
     display: -ms-flexbox;
     display: flex;
   }
+  .footer-wrap .footer-flex {
+    margin-bottom: 0;
+  }
 }
 
 .footer-logo {

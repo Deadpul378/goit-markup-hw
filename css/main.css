@@ -793,7 +793,7 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-  .footer-flex {
+  .footer-wrap .footer-flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -806,22 +806,13 @@ ul {
   }
 }
 @media screen and (min-width: 1200px) {
-  .footer-flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
-    margin-bottom: 0;
-  }
-}
-
-@media screen and (min-width: 1200px) {
   .footer-wrap {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .footer-wrap .footer-flex {
+    margin-bottom: 0;
   }
 }
 

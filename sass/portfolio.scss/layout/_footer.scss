@@ -16,7 +16,11 @@
     }
 
     @media screen and (min-width:1200px){
+        .footer-flex{
+            margin-bottom: 0;
+        }
         display: flex;
+        
     }
 }
 
